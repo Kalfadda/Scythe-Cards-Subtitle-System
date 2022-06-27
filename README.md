@@ -18,21 +18,24 @@ Scythe Cards is a *simple* and *barebones* subtitle system that takes advantage 
 'Prefab Manager' must exist in any scene requiring subtitles (drag it in from the prefabs folder).<br>
 In any script of your own you can now define a reference to SubtitleCard:
 ```cs
-public SubtitleCard shopKeeper;
+public SubtitleCard _shopKeeperDialogue;
 ```
 and from that very same script (or others) simply call
 ```cs
-SubtitleManager.instance.CueSubtitle(shopKeeper);
+SubtitleManager.instance.CueSubtitle(_shopKeeperDialogue);
 ```
 I.E.
 ```cs
-public SubtitleCard _myCard;
+public SubtitleCard _shopKeeperDialogue;
 
 void Start()
 {
-    SubtitleManager.instance.CueSubtitle(_myCard);
+    SubtitleManager.instance.CueSubtitle(_shopKeeperDialogue);
 }
 ```
+Subtitle Cards reference the ***Subtitle Card Data*** Scriptable Objects. You can easily create those
+by right clicking in your project folder (Right Click > Create > Subtitle Card Data). Just add your dialogue and timing.
+
 
 For a full explanation please see the barebones 'Example Scene' and review the code and tooltips to understand better.
 Scythe Cards was kept as minimal as possible to allow flexibility and extension however you see fit. Some examples
