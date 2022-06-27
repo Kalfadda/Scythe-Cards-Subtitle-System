@@ -37,10 +37,10 @@ void Start()
 For a full explanation please see the barebones 'Example Scene' and review the code and tooltips to understand better.
 Scythe Cards was kept as minimal as possible to allow flexibility and extension however you see fit. Some examples
 of different applications could be:
-- Creating an array of SubtitleCards[], to control an entire conversation in easy sequence.
-- Queueing audioclips in addition to the subtitle card execution
-- Overloading with languange varations and using a switch case to determine which array to use
-- Use multiple text objects to control many worldspace text elements for localization
+- Creating an array of SubtitleCards[], to control an entire conversation in an easy sequence.
+- Queueing audioclips in addition to the subtitle card execution for an all-in-one dialogue system.
+- Overloading with languange varations and using a switch case to determine which array to use.
+- Use multiple text objects to control many worldspace text elements for localization.
 
 MIT License
 Copyright (c) 2022 Kaleb Alfadda
