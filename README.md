@@ -1,4 +1,4 @@
-# Scythe Cards | Subtitle System for Unity3D
+# 
 ![image](https://user-images.githubusercontent.com/38150569/175878182-e126dc06-4562-4494-b54b-7d3e58c0f203.png)
 
 Created in Unity 2021.3.4f1<br>
