@@ -4,22 +4,43 @@
 Created in Unity 2021.3.4f1<br>
 Compatible with Unity 5+
 
-Scythe Cards is a simple and barebones subtitle system that takes advantage
-of Unity's Scriptable Object Workflow to allow game developers to add
-accessibility options quickly, easily and fast.
+Scythe Cards is a *simple* and *barebones* subtitle system that takes advantage of Unity's Scriptable Object Workflow to allow game developers of all skill levels to add accessibility options to their games quickly, easily and fast.
 
-Requirements:
+**Requirements:**
 - <a href="https://learn.unity.com/tutorial/working-with-textmesh-pro#5f86410eedbc2a00249a4927">TextMesh Pro</a>
 
-Instructions:
+**Instructions:**
 - Extract the Unity Package into your game
-- Simply drop the Subtitle Manager prefab into your scene, create a subtitle card, reference it, call the method and it's done!
+- Open the 'Example Scene' (Scythe Cards>Scenes>Example Scene)
+- Press Play
 
-The entire system is easily accomplished via the prefabbed manager, a scriptable object that contains your dialogue and timing, and just calling the method.
+**Breakdown:**<br>
+'Prefab Manager' must exist in any scene requiring subtitles (drag it in from the prefabs folder).<br>
+In any script of your own you can now define a reference to SubtitleCard:
+```cs
+public SubtitleCard shopKeeper;
+```
+and from that very same script (or others) simply call
+```cs
+SubtitleManager.instance.CueSubtitle(shopKeeper);
+```
+I.E.
+```cs
+public SubtitleCard _myCard;
+
+void Start()
+{
+    SubtitleManager.instance.CueSubtitle(_myCard);
+}
+```
+
 For a full explanation please see the barebones 'Example Scene' and review the code and tooltips to understand better.
-
-
-
+Scythe Cards was kept as minimal as possible to allow flexibility and extension however you see fit. Some examples
+of different applications could be:
+- Creating an array of SubtitleCards[], to control an entire conversation in easy sequence.
+- Queueing audioclips in addition to the subtitle card execution
+- Overloading with languange varations and using a switch case to determine which array to use
+- Use multiple text objects to control many worldspace text elements
 
 MIT License
 Copyright (c) 2022 Kaleb Alfadda
