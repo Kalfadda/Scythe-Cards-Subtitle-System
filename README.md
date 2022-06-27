@@ -10,10 +10,10 @@ accessibility options quickly, easily and fast.
 
 
 Instructions:
+- Extract the Unity Package into your game
+- Simply drop the Subtitle Manager prefab into your scene, create a subtitle card, reference it, call the method and it's done!
 
-Simply drop the Subtitle Manager prefab into your scene, create a subtitle card, reference it, call the method and it's done!
-
-It's easily accomplished via the prefabbed manager, a scriptable object that contains your dialogue and timing, and just calling the method.
+The entire system is easily accomplished via the prefabbed manager, a scriptable object that contains your dialogue and timing, and just calling the method.
 For a full explanation please see the barebones 'Example Scene' and review the code and tooltips to understand better.
 
 
