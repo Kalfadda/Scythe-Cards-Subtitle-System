@@ -26,6 +26,8 @@ SubtitleManager.instance.CueSubtitle(_shopKeeperDialogue);
 ```
 I.E.
 ```cs
+using Scythe.Accessibility;
+
 public SubtitleCard _shopKeeperDialogue;
 
 void Start()
