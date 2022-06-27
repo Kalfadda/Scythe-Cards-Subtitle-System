@@ -40,7 +40,7 @@ of different applications could be:
 - Creating an array of SubtitleCards[], to control an entire conversation in easy sequence.
 - Queueing audioclips in addition to the subtitle card execution
 - Overloading with languange varations and using a switch case to determine which array to use
-- Use multiple text objects to control many worldspace text elements
+- Use multiple text objects to control many worldspace text elements for localization
 
 MIT License
 Copyright (c) 2022 Kaleb Alfadda
