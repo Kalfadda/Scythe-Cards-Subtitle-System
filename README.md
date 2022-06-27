@@ -6,6 +6,9 @@ Scythe Cards is a simple and barebones subtitle system that takes advantage
 of Unity's Scriptable Object Workflow to allow game developers to add
 accessibility options quickly, easily and fast.
 
+![image](https://user-images.githubusercontent.com/38150569/175877077-f146ae89-2e61-428c-94f6-43f3bdfa9887.png)
+
+
 Instructions:
 
 Simply drop the Subtitle Manager prefab into your scene, create a subtitle card, reference it, call the method and it's done!
