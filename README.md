@@ -1,12 +1,12 @@
 # Scythe-Cards
+![image](https://user-images.githubusercontent.com/38150569/175878182-e126dc06-4562-4494-b54b-7d3e58c0f203.png)
+
 Created in Unity 2021.3.4f1<br>
 Compatible with Unity 5+
 
 Scythe Cards is a simple and barebones subtitle system that takes advantage
 of Unity's Scriptable Object Workflow to allow game developers to add
 accessibility options quickly, easily and fast.
-
-![image](https://user-images.githubusercontent.com/38150569/175877077-f146ae89-2e61-428c-94f6-43f3bdfa9887.png)
 
 
 Instructions:
