@@ -1,6 +1,7 @@
 # 
 ![image](https://user-images.githubusercontent.com/38150569/175878182-e126dc06-4562-4494-b54b-7d3e58c0f203.png)
 
+[![CodeFactor](https://www.codefactor.io/repository/github/kalfadda/scythe-cards-subtitle-system/badge/main)](https://www.codefactor.io/repository/github/kalfadda/scythe-cards-subtitle-system/overview/main)<br>
 Created in Unity 2021.3.4f1<br>
 Compatible with Unity 5+
 
